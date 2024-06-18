@@ -1,0 +1,44 @@
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+
+sum = num1 + num2
+
+print(f"The sum of {num1} and {num2} is {sum}")
+
+
+
+
+
+
+Input a number (num for short).
+2. If num % 2 equals 0:
+    - Print "The number is even."
+3. Else:
+    - Print "The number is odd."
+
+
+
+
+
+
+1. Initialize variables:
+   - Set totalSum to 0
+   - Set minNumber to a large value (e.g., positive infinity)
+   - Set maxNumber to a small value (e.g., negative infinity)
+
+2. Repeat the following steps five times:
+   a. Input a number (let's call it 'num').
+   b. Add 'num' to 'totalSum'.
+
+3. Calculate the average:
+   - Set 'average' to totalSum divided by 5.
+
+4. Repeat the following steps five times:
+   a. Input a number (let's call it 'num').
+   b. If 'num' is less than 'minNumber', update 'minNumber' with 'num'.
+      Otherwise, if 'num' is greater than 'maxNumber', update 'maxNumber' with 'num'.
+
+5. Print the results:
+   - Print "The average of the five numbers is: " + average.
+   - Print "The smallest number is: " + minNumber.
+   - Print "The largest number is: " + maxNumber.
